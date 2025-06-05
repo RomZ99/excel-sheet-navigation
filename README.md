@@ -1,8 +1,7 @@
-# excel-sheet-navigation
-Excel VBA macro for switching between sheets using keyboard shortcuts — ideal for laptops and compact keyboards without Page Up / Page Down keys.
 # Excel Sheet Navigation VBA
+Excel VBA macro for switching between sheets using keyboard shortcuts — ideal for laptops and compact keyboards without Page Up / Page Down keys.
 
-## 🔍 Overview
+## Overview
 
 This lightweight and portable VBA macro lets you navigate between sheets in any Excel workbook using keyboard shortcuts — a perfect solution for users on **laptops**, **compact keyboards**, or **devices that lack Page Up / Page Down keys**.
 
@@ -15,7 +14,7 @@ Many laptops and smaller keyboards don't include dedicated navigation keys like 
 
 No need to touch your mouse or click on tiny arrows again!
 
-## 📦 How to Import the VBA Module
+## How to Import the VBA Module
 
 1. Open your Excel workbook.
 2. Press `Alt + F11` to open the **VBA Editor**.
@@ -23,9 +22,7 @@ No need to touch your mouse or click on tiny arrows again!
 4. Select the downloaded `SheetNavigation.bas` file.
 5. The macro will be added under `Modules` as `SheetNavigation`.
 
----
-
-## 🎯 How to Assign Shortcut Keys
+## How to Assign Shortcut Keys
 
 1. Go back to Excel.
 2. Press `Alt + F8` to open the **Macro window**.
@@ -33,10 +30,8 @@ No need to touch your mouse or click on tiny arrows again!
 4. Select `GoToPreviousSheet` → click **Options** → set shortcut to `Ctrl + Shift + B`.
 5. Click OK. Your shortcuts are now active.
 
-> ⚠️ Note: Excel does not support assigning shortcuts using arrow keys (↑/↓), so `N` and `B` are used instead.
+> Note: Excel does not support assigning shortcuts using arrow keys (↑/↓), so `N` and `B` are used instead.
 
----
-
-## 📝 License
+## License
 
 MIT License — see LICENSE file for details. Feel free to use, modify, and distribute.
